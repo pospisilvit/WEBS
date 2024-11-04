@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(105, 105, 105);
+}
+
+.strana_1 img {
+    border: 5px solid rgb(221, 195, 48);
+    width: 200px;
+    height: 200px;
+}
+
+h1 {
+    color: rgb(221, 195, 48);
+    font-size: 50px;
+}
+
+p {
+    color: rgb(221, 195, 48);
+    font-size: 25px;
+}
+
+.strana_1 {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 750px;
+    height: 500px; 
+    border-radius: 10px; 
+    border: rgb(221, 195, 48) 12px solid;
+    padding: 10px;
+}
+
+.strana_2 {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: calc(50% + 650px); 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 750px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 10px;
+}
