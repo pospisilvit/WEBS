@@ -1,0 +1,93 @@
+body{
+    background-image: url("pozadi.jpg");
+    background-size: cover;
+}
+
+.nadpis{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column; 
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.hlavni{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.288);
+    flex-direction: column;
+    gap: 30px 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.247);
+}
+
+.formular{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-size: 14px;
+    
+}
+
+.jmeno{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+
+.heslicko{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tlacitko{
+    padding: 8px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    cursor: pointer;
+    border: 10px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.918);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.pole{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 17px;
+    text-align: center;
+    background-color:rgb(255, 255, 255) ;
+    
+}
