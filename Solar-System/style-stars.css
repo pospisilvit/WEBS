@@ -1,0 +1,53 @@
+.star1{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 250px;
+    margin-left: -500px;
+    border-radius: 50%;
+    animation: pulse-star 5s infinite;
+}
+
+.star2{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    margin-top: -250px;
+    margin-left: -250px;
+    border-radius: 50%;
+    animation: pulse-star 5s infinite;
+}
+
+.star3{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;
+    margin-left: 500px;
+    border-radius: 50%;
+    animation: pulse-star 5s infinite;
+}
+
+.star4{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 500px;
+    margin-right: 500px;
+    border-radius: 50%;
+    animation: pulse-star 5s infinite;
+}
+
+@keyframes pulse-star {
+    0% {
+        box-shadow: 0 0 70px rgba(255, 254, 220, 0.842);
+    }
+    100% {
+        box-shadow: 0 0 100px rgb(183, 255, 255);
+    }
+}
+   

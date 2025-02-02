@@ -1,0 +1,112 @@
+body{
+    background-color: black;
+    margin: 200px;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 160px;
+}
+
+.slunce{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(221, 199, 0);
+    box-shadow: 0 0 70px rgba(241, 175, 52, 0.842);
+    border-radius: 50%;
+    animation: pulse-shadow 5s infinite;
+}
+
+
+.rot-merkur{
+    position:absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 255, 0);
+    transform-origin: center;
+    animation: rotate 2s infinite linear;
+}
+.merkur{
+    width: 25px;
+    height: 25px;
+    background-image:linear-gradient(rgb(0, 0, 0), rgb(253, 240, 168));
+    border-radius: 50%;
+}
+
+
+.rot-venuse{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background-color: rgba(0, 255, 255, 0);
+    transform-origin: center;
+    animation: rotate 6s infinite linear;
+}
+.venuse{
+    height: 35px;
+    width: 35px;
+    background-image: linear-gradient( rgb(0, 0, 0), rgb(170, 140, 58));
+    position: absolute;
+    border-radius: 50%;
+}
+
+.rot-zeme{
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    background-color: rgba(0, 255, 255, 0);
+    transform-origin: center;
+    animation: rotate 16s infinite linear;
+}
+.zeme{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: linear-gradient(rgb(8, 8, 8), rgb(21, 111, 221));
+}
+
+.rot-mars{
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    background-color: rgba(0, 255, 255, 0);
+    transform-origin: center;
+    animation: rotate 18s infinite linear;
+}
+.mars{
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-image: linear-gradient(rgb(8, 4, 1), rgb(189, 13, 13));
+}
+
+@keyframes rotate {
+    100% {
+      transform: rotate(0deg);
+    }
+    0% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes pulse-shadow {
+    0% {
+        box-shadow: 0 0 70px rgba(255, 166, 0, 0.699);
+    }
+    100% {
+        box-shadow: 0 0 100px rgb(240, 196, 3);
+    }
+}
