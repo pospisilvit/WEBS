@@ -7,13 +7,13 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: white;
     color: #333;
 }
 
 header {
     position: center;
-    background-color: #333;
+    background-color: #0000008a;
     color: rgb(255, 255, 255);
     padding: 20px 0;
     text-align: center;
@@ -34,20 +34,20 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
 section {
     padding: 20px;
     margin: 20px 0;
-    background-color: white;
+    background-color: rgb(230, 230, 230);
     border-radius: 8px;
 }
 
 section h2 {
     margin-bottom: 15px;
-    color: #333;
+    color: #000000;
 }
 
 ul {
@@ -67,7 +67,7 @@ ul li {
 }
 
 footer {
-    background-color: #333;
+    background-color: #3d3c3c;
     color: white;
     text-align: center;
     padding: 10px 0;
