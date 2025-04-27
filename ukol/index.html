@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ukázka filtrování dat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Filtrování dat</h1>
+
+    <nav>
+        <a href="#tabulka">Tabulka</a>
+        <a href="#formular">Formulář</a>
+    </nav>
+
+    <section id="tabulka">
+        <h2>Tabulka</h2>
+        <table id="dataTabulka">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>
+                        Město
+                        <input type="text" id="filtrMesto" placeholder="Filtruj města...">
+                    </th>
+                    <th>Počet obyvatel</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Praha</td>
+                    <td>1300 000</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Brno</td>
+                    <td>380 000</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Ostrava</td>
+                    <td>300 000</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Plzeň</td>
+                    <td>180 000</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Olomouc</td>
+                    <td>100 000</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Liberec</td>
+                    <td>100 000</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="formular">
+        <h2>Formulář</h2>
+        <form id="filterForm">
+            <label for="mestoSelect">Vyberte město:</label>
+            <input type="text" id="searchMesto" placeholder="Filtruj města...">
+            <select id="mestoSelect">
+                <option value="Praha">Praha</option>
+                <option value="Brno">Brno</option>
+                <option value="Ostrava">Ostrava</option>
+                <option value="Plzeň">Plzeň</option>
+                <option value="Olomouc">Olomouc</option>
+                <option value="Liberec">Liberec</option>
+            </select>
+            <button type="submit">Odeslat</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>    
+</body>
+</html>
